@@ -11,7 +11,7 @@ e #2CA8A2
 
   @font-face {
     font-family:'a' ;
-    src: url('../fontes/idroid.otf') ;
+    src: url('idroid.otf') ;
     font-weight:normal;
   }
 :root{
