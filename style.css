@@ -36,7 +36,7 @@ body{
     font-family:var(--fonte-padrao);
 }
 a.externo::after{
-    content:'\00A0\1F517'
+    content:'\00A0\1F517';
 }
 p{
     margin: 15px 0px 15px 0px;
@@ -106,7 +106,7 @@ main> h2{
     font-family: var(--fonte-android);
     color:var(--cor4);
     font-size: 1.3em;
-    background-image:linear-gradient(to right,var(--cor0))
+    background-image:linear-gradient(to right,var(--cor0));
     font-weight:normal;
 }
 main > p {
@@ -137,7 +137,7 @@ color: var(--cor3);
     width: 100% ;
  }
  main img.pequena{
-    maxwidth: 350px;
+    max-width: 350px;
     display: block;
     margin: auto;
  }
@@ -190,5 +190,5 @@ footer a{
 }
 footer a:hover{
 text-decoration: underline;
-color:var(--cor1)
+color:var(--cor1);
 }
